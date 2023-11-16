@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         primOrange: "#FF3B0E",
-        overlay: "rgb(0, 0, 0, 0.5)",
+        overlay: "rgb(0, 0, 0, 0.2)",
       },
 
       fontFamily: {
@@ -15,8 +15,11 @@ export default {
       screens: {
         "-1000": { max: "1000px" },
         "-850": { max: "850px" },
+        "-800": { max: "800px" },
         "-750": { max: "750px" },
         "-500": { max: "500px" },
+        "-450": { max: "450px" },
+        "-300": { max: "300px" },
       },
     },
   },

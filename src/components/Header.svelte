@@ -1,6 +1,7 @@
 <script>
     import logo from "../assets/logo.svg"
     import { onMount } from "svelte";
+  import Btn from "./reusables/Btn.svelte";
     const navItemArr = ["About us", "Pricing", "Products", "Contact", "Career"]
 
     let isShown = false;
@@ -27,7 +28,7 @@
 
 <div
 class:active={isShown}
-class="overlay fixed bg-transparent pointer-events-none z-[10]"
+class="overlay fixed bg-overlay pointer-events-none z-[10]"
 on:click={handleMenu}
 ></div>
 
@@ -52,7 +53,7 @@ class={`hamburger ${isShown ? 'active' : ''} ${not}`}
 </div>
 </div>
 
-<nav class="navbar flex justify-between items-center p-6 w-[90%] -1000:w-[100%] mx-auto font-grotesk font-medium -850:border-overlay -850:border-[1px]" 
+<nav class="navbar sticky top-0 flex justify-between items-center p-6 w-[90%] -1000:w-[100%] mx-auto font-grotesk font-medium -850:border-overlay -850:border-[1px]" 
 class:active={isShown}
 
 >
@@ -73,9 +74,13 @@ class:active={isShown}
 
     <!-- Container for login/sign up btns -->
 
-    <div class="flex gap-6 -850:gap-4 font-bold text-lg">
-        <button class="">Login</button>
-        <button class="bg-primOrange text-white px-4 py-1 rounded-md">Get Started</button>
+    <div class="flex gap-6 -850:gap-4 font-bold text-lg items-center">
+        <button class="relative nav-item">Login</button>
+        <!-- <button class="bg-primOrange text-white px-4 py-1 rounded-md">Get Started</button> -->
+        <Btn>
+          Get Started
+        </Btn>
+
     </div>
 
 </nav>
