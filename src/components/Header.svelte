@@ -53,7 +53,7 @@ class={`hamburger ${isShown ? 'active' : ''} ${not}`}
 </div>
 </div>
 
-<nav class="navbar sticky top-0 flex justify-between items-center p-6 w-[90%] -1000:w-[100%] mx-auto font-grotesk font-medium -850:border-overlay -850:border-[1px]" 
+<nav class="navbar sticky top-0 flex justify-between items-center p-6 px-20 w-[100%] bg-white shadow-md -1000:px-10 -1000:w-[100%] mx-auto font-grotesk font-medium -850:border-overlay -850:border-[1px]" 
 class:active={isShown}
 
 >
