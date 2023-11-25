@@ -19,7 +19,7 @@ import arrow from "../assets/drop-arrow.svg"
         {
             id: 3,
             question: 'What kind of support is available if I have questions or encounter issues?',
-            response: 'We offer customer support to assist you with any questions or problems you may have. Feel free to reach out to our support team through our Contact page.We offer customer support to assist you with any questions or problems you may have. Feel free to reach out to our support team through our Contact page.We offer customer support to assist you with any questions or problems you may have. Feel free to reach out to our support team through our Contact page.We offer customer support to assist you with any questions or problems you may have. Feel free to reach out to our support team through our Contact page.',
+            response: 'We offer customer support to assist you with any questions or problems you may have.',
         },
         {
             id: 4,
@@ -115,9 +115,8 @@ import arrow from "../assets/drop-arrow.svg"
         }
 
     .response.active{
-        color: red;
         position: relative;
-        max-height: 200px;
+        max-height: 500px;
         opacity: 1;
     }
 
