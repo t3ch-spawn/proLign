@@ -6,6 +6,7 @@ export default {
       colors: {
         primOrange: "#FF3B0E",
         overlay: "rgb(0, 0, 0, 0.2)",
+        lightOrange : '#FCE3C8'
       },
 
       fontFamily: {
