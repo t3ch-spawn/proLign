@@ -130,7 +130,7 @@ import arrow from "../assets/drop-arrow.svg"
     }
 
     .line{
-        transition: 0.3s
+        transition: 0.6s
     }
 
     .line.active{
