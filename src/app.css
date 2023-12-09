@@ -14,6 +14,6 @@ html{
     scroll-behavior: smooth;
 }
 
-#app > main >  *:not(nav):not(.hero):not(.nav-mobile){
+#app > main >  *:not(nav):not(.hero):not(.nav-mobile):not(.overlay){
     margin-top: 150px !important;
 }
