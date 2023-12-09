@@ -8,7 +8,7 @@
 
 <!-- div housing typography and buttons -->
 <div class="max-w-[480px] flex flex-col gap-12 -950:text-center -950:items-center">
-    <h3 class="max-w-[400px] text-4xl font-medium">
+    <h3 class="max-w-[400px] text-4xl -750:text-2xl font-medium">
         Download <span class="text-primOrange">Prolign</span> mobile app
     </h3>
 
