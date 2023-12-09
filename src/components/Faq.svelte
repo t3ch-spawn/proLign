@@ -67,7 +67,7 @@ import arrow from "../assets/drop-arrow.svg"
 
   <!-- container for heading -->
 <div class="flex flex-col gap-2 items-center">
-    <Btn extraStyles = "bg-lightOrange text-primOrange max-w-fit">
+    <Btn extraStyles = "!bg-lightOrange !text-primOrange max-w-fit">
         FAQ
     </Btn>
 <h3 class="text-xl max-w-[210px] text-center">

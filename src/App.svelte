@@ -14,9 +14,9 @@ import Header from "./components/Header.svelte";
   <Hero/>
   <Companies/>
   <ManageProj/>
+  <Pricing/>
   <Download/>
   <Faq/>
-  <Pricing/>
 
 
 </main>

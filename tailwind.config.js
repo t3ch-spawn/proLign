@@ -24,6 +24,11 @@ export default {
         "-450": { max: "450px" },
         "-300": { max: "300px" },
       },
+
+
+      boxShadow: {
+        toggle: '0px 6px 8px 3px rgba(0, 0, 0, 0.10) inset'
+      }
     },
   },
   plugins: [],

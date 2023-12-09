@@ -9,7 +9,7 @@ export let btnStyles = ''
 </script>
 
 
-<div class={`p-10 px-14 rounded-lg flex flex-col gap-8 items-center ${cardStyles} -500:px-10`}>
+<div class={`p-10 px-14 rounded-lg flex flex-col gap-8 items-center ${cardStyles} -500:px-10 -500:w-[90%]`}>
 
     <!-- heading -->
     <h3 class="font-bold">

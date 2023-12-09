@@ -17,3 +17,7 @@ html{
 #app > main >  *:not(nav):not(.hero):not(.nav-mobile):not(.overlay){
     margin-top: 150px !important;
 }
+
+.wefijn{
+    background: rgb(252, 228, 202)
+}
