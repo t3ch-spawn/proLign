@@ -6,7 +6,8 @@ export default {
       colors: {
         primOrange: "#FF3B0E",
         overlay: "rgb(0, 0, 0, 0.2)",
-        lightOrange : '#FCE3C8'
+        lightOrange : '#FCE3C8',
+        creamBg: '#FFFAF6'
       },
 
       fontFamily: {
@@ -15,6 +16,7 @@ export default {
 
       screens: {
         "-1000": { max: "1000px" },
+        "-950": { max: "950px" },
         "-850": { max: "850px" },
         "-800": { max: "800px" },
         "-750": { max: "750px" },

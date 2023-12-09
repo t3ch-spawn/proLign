@@ -6,7 +6,7 @@
 
 </script>
 
-<div class="mt-[100px] bg-[#FFFAF6] gap-12 flex flex-col py-[40px] px-4">
+<div class="mt-[100px] bg-creamBg gap-12 flex flex-col py-[40px] px-4">
     <!-- container for heading and paragraph -->
     <div class="text-center">
         <h3 class="font-bold text-xl mb-2">Control and manage your projects</h3>

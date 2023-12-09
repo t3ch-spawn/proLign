@@ -4,6 +4,7 @@ import Header from "./components/Header.svelte";
   import Companies from "./components/Companies.svelte"
   import ManageProj from "./components/ManageProj.svelte"
   import Faq from "./components/Faq.svelte";
+  import Download from "./components/Download.svelte";
 </script>
 
 <main class="font-grotesk">
@@ -12,7 +13,9 @@ import Header from "./components/Header.svelte";
   <Hero/>
   <Companies/>
   <ManageProj/>
+  <Download/>
   <Faq/>
+
 
 </main>
 
