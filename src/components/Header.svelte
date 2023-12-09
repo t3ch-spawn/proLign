@@ -33,7 +33,7 @@ on:click={handleMenu}
 ></div>
 
 <!-- container for logo and hamburger(only shown for smaller screens using the hamburger) -->
-<div class="hidden sticky top-0 bg-white shadow-md -850:flex justify-between w-[100%] px-8  mx-auto py-6">
+<div class="nav-mobile hidden sticky top-0 bg-white shadow-md -850:flex justify-between w-[100%] px-8  mx-auto py-6">
     <!-- logo shown on mobile -->
 <div class='hidden -850:block relative'>
     <img src={logo} alt="">
